@@ -1,0 +1,105 @@
+@media screen and (min-width: 769px) and (max-width: 992px)
+{
+
+    /* SECTION 2 - HEBERGEMENTS A MARSEILLE */
+
+    #section2
+    {
+        width: auto;
+    }
+
+    .carte_lieu_h
+    {
+       width: 47%;
+       margin-bottom: 3%;
+    }
+
+    .afficher_plus
+    {
+    margin-top: 15px;
+    }
+
+    
+    /* SECTION 3 - LES PLUS POPULAIRES */
+
+    #section3
+    {
+        height: 420px;
+    }
+
+    .cartes_populaires
+    {
+        margin: 0 20px;
+    }
+
+
+    /* SECTION 4 - ACTIVITES A MARSEILLE */
+
+    .cartes_activites
+{
+    flex-wrap: wrap;
+
+}
+
+    .bloc_a1, .bloc_a2
+    {
+        width: 49%;
+        height: 340px;
+        margin-bottom: 30px;
+        order: -1;        
+    }
+
+    .carte_lieu_a2, .carte_lieu_a3, .carte_lieu_a5, .carte_lieu_a6, .carte_image_a5, .carte_image_a6
+    {
+        width: 100%;
+        height: 160px;
+    }
+
+    .carte_lieu_a1, .carte_lieu_a4
+    {
+        width: 49%;
+        height: 160px;
+    }
+
+    .carte_image_a1, .carte_image_a2, .carte_image_a3, .carte_image_a4, .carte_image_a5, .carte_image_a6
+    {
+        width: 100%;
+        height: 120px;
+    }
+
+    #photo_a1
+    {
+        width: 100%;
+        top: -40%;
+        left: 0%;
+    }
+
+    #photo_a2
+    {
+        width: 100%;
+        top: -170%;
+    }
+
+    #photo_a3
+    {
+        top: -40%;
+    }
+
+    #photo_a4
+    {
+        width: 100%;
+        top: -45%;
+        left: 0%;
+    }
+
+    #photo_a5
+    {
+        width: 100%;
+        top: -10%;
+    }
+
+    #photo_a6
+    {
+        top: -45%;
+    }
+}

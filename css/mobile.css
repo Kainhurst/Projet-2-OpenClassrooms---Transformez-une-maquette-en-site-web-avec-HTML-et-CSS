@@ -1,0 +1,594 @@
+@media screen and (max-width: 768px)
+{
+
+/* HEADER */
+
+    header
+    {
+        flex-direction: column;
+        align-items: center;        
+        margin: 0 0 30px 0;        
+    }
+
+    #logo
+    {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav
+    {
+        width: 100%;
+    }
+
+    nav ul 
+    {
+       justify-content: center;
+       align-items: stretch;
+       padding: 0; 
+    }
+
+    nav li
+    {
+        width: 100%;        
+        padding: 30px 0 15px 0;
+        border-bottom: 4px solid #F2F2F2;
+    }
+
+    nav li:hover
+    {
+        padding-top: 30px;        
+        border-top: none;
+        border-bottom: 4px solid #0065FC;
+    }
+
+    nav a 
+    {
+        font-size: medium;
+    }
+
+    
+/* SECTION 1 */
+
+    #section1
+    {
+        margin: 0 20px;
+    }
+
+    #section1 h2
+    {
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+
+    #section1 p
+    {
+        font-size: medium;
+    }
+
+    /* FORMULAIRE*/
+
+    form 
+    {
+        margin-top: 35px;
+        height: 50px;
+    }
+  
+    .icone_localisation
+    {
+        padding: 16px; 
+    }
+
+    #recherche
+    {
+        width: 63%;
+        margin-left: 45px;
+        padding: 15px; 
+        font-size: medium;
+    }
+
+    .icone_loupe
+    {
+        background-color:#0065FC;
+        border-color: #0065FC;
+        color: #F2F2F2;
+    }
+
+    #rechercher
+    {
+        display: none;
+    }
+
+    #rechercher_icone
+    {
+        display: block;
+        position: relative;
+        margin-left: 70%;   
+        padding: 17px;    
+        border: none;        
+        border-radius: 17px;
+        font-weight: 600;   
+        background-color: #0065FC;
+    }
+
+
+/* FILTRES */
+
+    #filtres 
+    {       
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 5px;
+    }
+
+    #filtres h3
+    {
+        margin-top: 30px;
+        margin-bottom: 0;
+        font-size: large;
+    }
+   
+    #filtres ul 
+    {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        font-size: large;   
+    }
+
+   #filtres li 
+    {
+        margin: 0 10px 13px 0;
+        padding-right: 10px;
+    }
+
+    .icone_romantique,.icone_animaux_autorises
+    {
+        padding: 15px;
+    }
+    
+    .icone_economique
+    {
+        padding: 15px 14px 15px 14px;
+    }
+
+    .icone_familial
+    {
+        padding: 14px 16px 14px 16px;
+    }
+
+/* INFORMATIONS*/
+
+    .icone_info
+    {
+        margin-right: 10px;
+    }
+
+    .info
+    {
+        margin: 0 0 35px 0;
+    }
+
+    .info span 
+    {
+        padding: 0;
+        font-size: medium;
+    }
+
+
+/* SECTION 3 - LES PLUS POPULAIRES */
+
+    #section3
+    {
+        width: auto;
+        height: auto;          
+        margin: 0;
+        padding: 45px 0 25px 0;
+        background-color: #F2F2F2;
+        border-radius: 0;
+    }
+
+    #section3 h2
+    {
+        margin: 0 0 25px 20px;
+        font-size: x-large;
+    }
+
+    .icone_populaire
+    {
+        margin: 0px 20px 25px 0;
+        padding-top: 5px;
+    }
+
+
+/* CARTE LES PLUS POPULAIRES */
+
+    .cartes_populaires
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .carte_lieu_p
+    {
+        width: 98%;
+        height: 135px;
+        margin: 0 0 10px 0;
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+    .carte_image_p
+    {
+        width: 130px;
+        height: 135px;
+    }
+
+    #photo_p1
+    {
+        width: 172%;
+        top: -4%;
+        left: -36%;
+    }
+
+    #photo_p2
+    {
+        width: 150%;
+        top: -4%;
+        left: -25%;
+    }
+
+    #photo_p3
+    {
+        top: -26%;
+        left: -2%;
+    }
+
+    .carte_body_p
+    {
+        font-size: small;
+    }
+
+    .carte_titre_prix_p h3
+    {
+        margin-top: 15px;
+        font-size: medium;
+    }
+
+    .carte_titre_prix_p p
+    {
+        margin-top: 5px;
+    }
+
+    .carte_note_p
+    {
+        margin-top: 40px;
+    }
+
+
+/* SECTION 2 - HEBERGEMENTS A MARSEILLE */
+
+    #section2
+    {
+        width: auto;
+        margin: 0 0 25px 0;
+        padding: 45px 0 25px 0;    
+        background-color: white;
+    }
+
+    #section2 h2 
+    {
+        margin: 0 0 20px 25px;
+        font-size: x-large;
+    }
+
+    
+/* CARTE HEBERGEMENTS A MARSEILLE */
+
+    .cartes_hebergements
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .carte_lieu_h
+    {
+        width: 98%;
+        height: 190px;
+        margin: 0 0 15px 0;
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+    .carte_image_h
+    {
+        height: 115px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    #photo_h1
+    {
+        width: 103%;
+        top: -48%;
+        left: -2%;
+    }
+
+    #photo_h2
+    {
+        width: 103%;
+        top: -46%;
+        left: -2%;
+    }
+
+    #photo_h3
+    {
+        width: 103%;
+        top: -46%;
+        left: -1%;
+    }
+
+    #photo_h4
+    {
+        width: 105%;
+        top: -89%;
+        left: -2%;
+    }
+
+    #photo_h5
+    {
+        width: 105%;
+        top: -35%;
+        left: -3%;
+    }
+
+    #photo_h6
+    {
+        width: 103%;
+        top: -170%;
+        left: -2%;
+    }
+
+    .carte_body_h
+    {
+        padding-left: 10px;        
+        font-size: small;
+    }
+
+    .carte_body_h h3
+    {
+        margin-top: 10px;
+        font-size: medium;
+    }
+    
+    .carte_body_h p
+    {
+        margin-top: 6px;
+    }
+    
+    .carte_note_h
+    {
+        margin-top: 6px;
+    }
+
+    .afficher_plus
+    {
+        margin: 20px 0 0 20px;
+        font-size: large;
+    }
+
+
+    /* BLOC - HEBERGEMENTS A MARSEILLE + LES PLUS POPULAIRES */
+
+    #bloc
+    {
+        flex-direction: column-reverse;
+    }
+
+
+    /* SECTION 4 - ACTIVITES A MARSEILLE */
+
+    #section4
+    {
+        margin: 0; 
+        background-color: white;
+    }
+
+    #section4 h2 
+    {
+        margin: 0 0 20px 25px;
+        font-size: x-large;
+    }
+
+    
+/* CARTE ACTIVITES A MARSEILLE */
+
+    .cartes_activites
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .carte_lieu_a1
+    {
+        width: 100%;
+        height: 190px;
+        margin-bottom: 25px;
+        border-radius: 20px;
+    }
+    
+    .carte_image_a1
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    #photo_a1
+    {
+        width: 101%;
+        top: -13%;
+        left: 0%;
+    }
+
+    .carte_lieu_a2
+    {
+        width: 100%;
+        height: 190px;
+        margin-bottom: 25px;
+        border-radius: 20px;
+    }
+
+    .carte_image_a2
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    #photo_a2
+    {
+        width: 101%;
+        top: -117%;
+        left: 0%;
+    }
+
+    .carte_lieu_a3
+    {
+        width: 100%;
+        height: 190px;
+        margin-bottom: 25px;
+        border-radius: 20px;
+    }
+
+    .carte_image_a3
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    #photo_a3
+    {
+        width: 101%;
+        top: -13%;
+        left: 0%;
+    }
+
+    .carte_lieu_a4
+    {
+        width: 100%;
+        height: 190px;
+        margin-bottom: 25px;
+        border-radius: 20px;
+    }
+
+    .carte_image_a4
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    #photo_a4
+    {
+        width: 101%;
+        top: -13%;
+        left: 0%;
+    }
+
+    .carte_lieu_a5
+    {
+        width: 100%;
+        height: 190px;
+        margin-bottom: 25px;
+        border-radius: 20px;
+    }
+
+    .carte_image_a5
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    #photo_a5
+    {
+        width: 101%;
+        top: -11%;
+        left: 0%;
+    }
+
+    .carte_lieu_a6
+    {
+        width: 100%;
+        height: 190px;
+        margin-bottom: 25px;
+        border-radius: 20px;
+    }
+
+    .carte_image_a6
+    {
+        width: 100%;
+        height: 135px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    #photo_a6
+    {
+        width: 100%;
+        top: -23%;
+        left: 0%;
+    }
+
+    .carte_body_a h3 
+    {
+        padding-left: 0px;
+        font-size: medium;
+    }
+
+    .bloc_a1, .bloc_a2
+    {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+/* FOOTER */
+
+    #bas_de_page
+    {
+        flex-direction: column;
+        font-size: small;
+        margin-top: 15px;
+        padding: 20px 0 20px 25px;
+    }
+
+    .liste_bas_de_page
+    {
+        margin-top: 0;
+    }
+
+    .liste_bas_de_page h3
+    {
+        margin-bottom: 10px;
+    }
+
+    .liste_bas_de_page ul
+    {
+        line-height: 25px; 
+    }
+
+}
